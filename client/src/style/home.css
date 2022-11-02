@@ -1,0 +1,12 @@
+.home {
+    width: 689px;
+    height: 504px;
+    background-color: #D58BDD;
+    border: 5px solid #000000;
+    border-radius: 5px;
+    font-size: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

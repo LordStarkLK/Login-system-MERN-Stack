@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Bayon&display=swap');
+
+. {
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(119.95deg, #373737 10.16%, #000000 86.73%);
+    margin: 0;
+    font-family: 'Bayon';
+    font-style: normal;
+}
+
+.App {
+    background-image: url('./../images/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 30vh;
+    background-size: 100% 200px;
+    height: 100vh;
+}
+
+content {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.register-form {
+    background: #FF99D7;
+    border: 5px solid #000000;
+    border-radius: 5px;
+    width: 650px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.register-form>h1 {
+    font-size: 58px;
+    margin: 10px 0;
+}
+
+.login-form {
+    background: #D58BDD;
+    border: 5px solid #000000;
+    border-radius: 5px;
+    width: 650px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.login-form>h1 {
+    font-size: 58px;
+    margin: 10px 0;
+}
+
+input {
+    width: 440px;
+    height: 55px;
+    background: #F9F9F9;
+    border: 2px solid #000000;
+    border-radius: 4px;
+    font-size: 25px;
+    padding-left: 15px;
+    font-family: 'Bayon';
+    font-style: normal;
+    margin: 10px 0;
+}
+
+#register-btn-form {
+    margin-top: 10px;
+    background: #FFD372;
+    border: 3px solid #000000;
+    box-shadow: -2px 2px 0px #000000;
+    border-radius: 6px;
+}
