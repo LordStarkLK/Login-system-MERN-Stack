@@ -47,6 +47,7 @@ content {
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
+    position: relative;
 }
 
 .register-form>h1 {
@@ -65,6 +66,7 @@ content {
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
+    position: relative;
 }
 
 .login-form>h1 {
@@ -91,4 +93,10 @@ input {
     border: 3px solid #000000;
     box-shadow: -2px 2px 0px #000000;
     border-radius: 6px;
+}
+#error {
+    color: rgb(138 0 27);
+    position: absolute;
+    bottom: 10px;
+    font-size: 18px;
 }
